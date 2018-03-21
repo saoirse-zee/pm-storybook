@@ -5,6 +5,30 @@ import Button from '../components/Button';
 import EventInstanceItem from '../components/EventInstanceItem';
 import EventInstanceList from '../components/EventInstanceList';
 
+/************************************************/
+/* Decorators */
+/************************************************/
+const constrainWidth = story => (
+  <div style={{width: '420px'}}>
+    {story()}
+  </div>
+);
+const background = story => (
+  <div style={{background: '#EEEEEE'}}>
+    {story()}
+  </div>
+);
+const pad = story => (
+  <div style={{padding: '30px'}}>
+    {story()}
+  </div>
+);
+
+
+/************************************************/
+/* Stories */
+/************************************************/
+
 storiesOf('Atoms/Button', module)
   .add('with text', () => (
     <Button onClick={action('clicked')}>Hello Button</Button>
@@ -14,7 +38,8 @@ storiesOf('Atoms/Button', module)
   ));
 
 storiesOf('Event instance item', module)
-  .add('plain', () => (
+  .addDecorator(constrainWidth)
+  .add('base case', () => (
     <EventInstanceItem
       date="Jan 1 7:30pm"
       isAvailable={true}
@@ -22,7 +47,10 @@ storiesOf('Event instance item', module)
   ));
 
 storiesOf('Event instance list', module)
-  .add('plain', () => (
+  .addDecorator(pad)
+  .addDecorator(background)
+  .addDecorator(constrainWidth)
+  .add('base case', () => (
     <EventInstanceList
       instanceList={[
         {
