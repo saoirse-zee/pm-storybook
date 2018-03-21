@@ -1,0 +1,55 @@
+/* Styles are named-spaced with `patman` and follow the same BEM convention used by Lightning. */
+/* https://www.lightningdesignsystem.com/guidelines/markup-and-style/ */
+
+/* Note: IE does not support CSS vars, so this must be run through a CSS preprocessor! */
+
+
+
+/************************************************/
+/* Brand colors */
+/************************************************/
+
+/* Cool theme */
+:root {
+  --brand-color-primary: #00AFBF;
+  --brand-color-primary--darken: #0096A3;
+  --brand-color-light: #DBFCFF;
+  --brand-color-white: #FFFFFF;
+}
+
+/* Mute theme */
+/* :root {
+  --brand-color-primary: #4A4A4A;
+  --brand-color-light: #FFF8F2;
+  --brand-color-white: #FFFFFF;
+} */
+
+
+
+/************************************************/
+/* Button */
+/************************************************/
+.patman-button_brand {
+  background: var(--brand-color-primary);
+  border-radius: 5px;
+  border: none;
+  color: var(--brand-color-white);
+}
+
+
+/************************************************/
+/* EventInstanceItem */
+/************************************************/
+.eventInstanceItem {
+  padding: 10px;
+}
+
+
+/************************************************/
+/* FilterButton */
+/************************************************/
+.filterButton {
+  border-radius: 10px;
+  font-size: 0.7rem;
+  margin-right: 0.5rem;
+}

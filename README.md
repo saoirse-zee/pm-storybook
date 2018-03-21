@@ -1,0 +1,1 @@
+Bootstrap is imported in `stories/index.js`, and any code that branch from there (this includes all the stories) has it in scope. I'm sure this is not where it should be imported in the final say, but it works for now.
