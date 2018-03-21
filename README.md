@@ -1,5 +1,8 @@
 # Storybook Demo
 
+A little demo of [React Storybook](https://storybook.js.org/), which provides a nice way of building out UI components for React projects. It generates a deployable component inventory that is useful both to devs (it serves as a reference for component usage) and non-technical stakeholders (the inventory provides an always-up-to-date view of the product's UI.)
+
+
 ## Quick start
 
 ```
@@ -9,6 +12,11 @@ npm run storybook
 
 Storybook should be running on http://localhost:9001/.
 
+
+## Build for deployment
+```
+npm run storybook-build
+```
 
 ## Project structure
 
