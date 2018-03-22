@@ -1,8 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { constrainWidth } from '../storybook-utils/decorators';
-import EventInstanceItem from '../components/EventInstanceItem';
+import { constrainWidth } from '../../storybook-utils/decorators';
+import EventInstanceItem from './';
 
 storiesOf('Event instance item', module)
   .addDecorator(constrainWidth)

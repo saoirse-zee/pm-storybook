@@ -1,7 +1,7 @@
 import React from 'react'
 import { ButtonGroup, Button, Container, Row, Col } from 'reactstrap'
-import FilterButton from './FilterButton'
-import EventInstanceItem from './EventInstanceItem'
+import FilterButton from '../FilterButton'
+import EventInstanceItem from '../EventInstanceItem'
 
 const EventInstanceList = ({ instanceList }) => (
   <Container className="eventInstanceList">

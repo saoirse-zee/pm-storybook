@@ -1,8 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { pad, background, constrainWidth } from '../storybook-utils/decorators';
-import EventInstanceList from '../components/EventInstanceList';
+import { pad, background, constrainWidth } from '../../storybook-utils/decorators';
+import EventInstanceList from './';
 
 storiesOf('Event instance list', module)
   .addDecorator(pad)
