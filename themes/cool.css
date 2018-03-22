@@ -1,0 +1,12 @@
+/* Note: IE does not support CSS vars, so this must be run through a CSS preprocessor! */
+
+/************************************************/
+/* Brand colors */
+/************************************************/
+
+:root {
+  --brand-color-primary: #00AFBF;
+  --brand-color-primary--darken: #0096A3;
+  --brand-color-light: #DBFCFF;
+  --brand-color-white: #FFFFFF;
+}

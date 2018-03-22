@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from 'reactstrap'
+import './styles.css'
 
 const FilterButton = ({ label, isSelected, onClick }) => (
   <Button

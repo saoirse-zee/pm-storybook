@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Container, Row, Col } from 'reactstrap'
+import './styles.css'
 
 const EventInstanceItem = ({ date, isAvailable }) => (
   <Container className="eventInstanceItem">

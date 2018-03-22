@@ -1,0 +1,10 @@
+.filterButton {
+  border-radius: 10px;
+  font-size: 0.7rem;
+  margin-right: 0.5rem;
+  background: var(--brand-color-primary);
+}
+
+.filterButton:hover {
+  background: var(--brand-color-primary--darken);
+}

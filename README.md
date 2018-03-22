@@ -29,3 +29,5 @@ I've configured Storybook to look for files ending in `.story.js`. (See `.storyb
 
 ## Notes
 The components are, for the most part, pure functions, which is in keeping with React guidelines. However, they assume that certain styles, including Bootstrap's CSS, are in scope. These global styles are imported in the Storybook config file (`.storybook/config.js`.) When used in a real app these global styles will need to be imported into a root component (conventionally `App.js` or `index.js`) so that they are available to the child components.
+
+This demo includes a really basic example of theming. Themes are simply sets of css variables put in the global space. (For our case, this happens the same way as with Bootstrap: `.storybook/config.js`.) Pointing to a different file changes the theme. Try this out: Open up the filter button in the styleguide and change `cool.css` to `elegant.css`.
