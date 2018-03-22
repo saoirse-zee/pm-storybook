@@ -5,10 +5,10 @@ import './styles.css'
 const EventInstanceItem = ({ date, isAvailable }) => (
   <Container className="eventInstanceItem">
     <Row>
-      <Col xs="8">
+      <Col xs="8" className="date-container">
         <p>{ date }</p>
       </Col>
-      <Col xs="4">
+      <Col xs="4" className="button-container">
         {
           isAvailable
           ? <Button color="primary" outline>Buy</Button>

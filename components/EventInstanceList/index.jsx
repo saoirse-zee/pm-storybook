@@ -2,6 +2,7 @@ import React from 'react'
 import { ButtonGroup, Button, Container, Row, Col } from 'reactstrap'
 import FilterButton from '../FilterButton'
 import EventInstanceItem from '../EventInstanceItem'
+import './styles.css'
 
 const EventInstanceList = ({ instanceList }) => (
   <Container className="eventInstanceList">
@@ -12,7 +13,7 @@ const EventInstanceList = ({ instanceList }) => (
     </Row>
 
     <Row>
-      <Button color="link">Show as calendar</Button>
+      <Button color="link" className="list-mode-button">View as calendar</Button>
     </Row>
 
     { instanceList.map(instance => (

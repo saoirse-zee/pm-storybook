@@ -1,0 +1,28 @@
+.sidebar {
+  width: 333px;
+  background: #E6E6E6;
+}
+
+.sidebar .headers,
+.sidebar .content {
+  padding: 20px 0 0 20px;
+}
+
+.sidebar .headers {
+  height: 140px;
+  background: #D8D8D8;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.sidebar .headers h1 {
+  color: #4A4A4A;
+  font-size: 28px;
+}
+.sidebar .headers h2 {
+  color: #7A7A7A;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}

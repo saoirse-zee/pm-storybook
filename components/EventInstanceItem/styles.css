@@ -1,3 +1,20 @@
 .eventInstanceItem {
-  padding: 10px;
+  color: #4A4A4A;
+  padding-bottom: 1rem;
+}
+
+.eventInstanceItem .date-container {
+  display: flex;
+  align-items: center;
+}
+
+.eventInstanceItem .date-container p,
+.eventInstanceItem .button-container p {
+  margin: 0; /* To get them to vertically center */
+}
+
+.btn {
+  /* color: pink; */
+  font-size: 0.8rem;
+  text-transform: uppercase;
 }
