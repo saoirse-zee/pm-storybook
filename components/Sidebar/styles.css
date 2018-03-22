@@ -1,6 +1,7 @@
 .sidebar {
   width: 333px;
-  background: #E6E6E6;
+  background: var(--brand-color-light);
+  padding-bottom: 4rem;
 }
 
 .sidebar .headers,
@@ -10,7 +11,7 @@
 
 .sidebar .headers {
   height: 140px;
-  background: #D8D8D8;
+  background: var(--brand-color-accent);
   display: flex;
   justify-content: flex-end;
   flex-direction: column;

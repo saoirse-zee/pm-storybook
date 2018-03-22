@@ -5,8 +5,9 @@
 /************************************************/
 
 :root {
-  --brand-color-primary: #4A4A4A;
-  --brand-color-primary--darken: #363434;
-  --brand-color-light: #FFF8F2;
+  --brand-color-primary: #77bf00;
+  --brand-color-primary--darken: #6cad00;
+  --brand-color-light: #FAFAFA;
+  --brand-color-accent: #dbdbdb;
   --brand-color-white: #FFFFFF;
 }
